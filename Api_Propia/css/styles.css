@@ -1,0 +1,241 @@
+.taskDone{
+    text-decoration: line-through;
+}
+.card{
+    padding: 2vw;
+    margin-top: 5% !important;
+    border: 2px solid #fafafa10;
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+    color: #000;
+    transition: ease 300ms !important;
+    margin-right: 50px !important;
+}
+.sectionQuery{
+    display: flex;
+    max-width: 1000px !important;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    padding-top: 30px;
+    width: 100%;
+    height: 80vh;
+    background-size: cover !important;
+    background: url('../Image/background.avif');
+    margin: 0px !important;
+}
+.glass-effect{
+    background: #fafafa35 !important;
+    backdrop-filter: blur(0.4rem) !important;
+    margin-top: 100px !important;
+}
+.table{
+    color: white;
+}
+.navdark{
+    background: #000 !important;
+}
+a{
+    color: #ffff !important;
+}
+h6, .description{
+    color: #ffff !important;
+}
+.divider{
+    color: white;
+    border: solid white 3px;
+    width: 100%;
+}
+.normalForm{
+    display: flex;
+    justify-content: space-around;
+}
+.normalForm2{
+    display: flex;
+    /* justify-content:flex-start; */
+}
+.mb-3{
+    margin-right: 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.buttons button{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.jumbotron{
+    padding-top: 10vh;
+    width: 50% !important;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+}
+.title{
+    font-weight: 500;
+    font-size: 80px;
+    color: white;
+}
+.title2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 80px;
+    color: white;
+}
+.btn-outline-light:hover{
+    color: #000!important;
+}
+.section{
+    display: flex;
+}
+.sectionRecientes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+.product{
+    background-image: url('../Image/back.svg');
+    background-size: cover;
+    background-repeat: none;
+    padding: 3vw !important;
+}
+.sec{
+    margin-bottom: 10vh !important;
+}
+.card-img-top{
+    width: 200px !important;
+    height: 200px !important;
+    size-adjust: cover;
+}
+.card-img-mini{
+    width: 50px !important;
+    height: 50px !important;
+    size-adjust: cover;
+    border-radius: 50%;
+}
+.back{
+    background-image: url('../Image/back.svg');
+    background-size: cover;
+    background-repeat: none;
+}
+.container{
+    padding-top: 50px!important;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.btn-success{
+    margin-top: 10px;
+}
+.card-body{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: q0px;
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.searchbutton{
+    position: absolute;
+    left: 85%;
+    top: 204%;
+    transform: translate(-50%,-50%);
+    padding: 5px;
+}
+.searchbutton input{
+    outline: none;
+    box-sizing: border-box;
+    height: 40px;
+    width: 0;
+    padding: 0 20px;
+    color: black;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid red;
+    transition: all .7s ease;
+}
+::placeholder{
+    color: gray;
+}
+.boton{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+.boton i{
+    font-size: 20px;
+    color: white;
+    line-height: 50px;
+    transition: all .7s ease;
+}
+.searchbutton:hover input{
+    width: 200px;
+}
+.searchbutton:hover i {
+    transform: rotate(-360deg);
+}
+.boton:hover{
+    background-color: red;
+}
+.nav-item i{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 18px;
+    left: 95%;
+    cursor: pointer;
+}
+.nav-item:hover i{
+    transform: scale(1.1);
+    transition: all .2s;
+}
+.dropdown-menu{
+    width: 400px;
+    padding-bottom: 0;
+    padding: 10px;
+}
+.btn-group{
+    position: fixed;
+    top: 85%;
+    left: 95%;
+    z-index: 10;
+    justify-items: center;
+}
+.total{
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: red;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    justify-content: center;
+}
+.muestra{
+    color: white;
+    font-size: large;
+}
